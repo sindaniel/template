@@ -4,6 +4,5 @@
     @if($help)<small class='form-text text-muted'>  {{$help}}</small>@endif
     @error($name)
         <div class="text-danger">{{ $message }}</div>
-    @enderror
-    
+    @enderror    
 </div>
