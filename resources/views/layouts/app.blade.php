@@ -27,7 +27,7 @@
             <div class="content-page">
                 <!-- Start content -->
                 <div class="content">
-                    <div class="container-fluid">
+                    <div class="container">
                         <div class="page-title-box">
                             <div class="row align-items-center">
                                 

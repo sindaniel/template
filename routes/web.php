@@ -21,3 +21,11 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/home', 'HomeController@index');
 });
+
+
+
+Route::get('/logout', function () {
+    Auth::logout();
+    return Redirect::route('home');
+})->name('logout');
+
