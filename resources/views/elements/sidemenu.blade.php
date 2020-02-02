@@ -7,8 +7,8 @@
             <!-- Left Menu Start -->
             <ul class="metismenu" id="side-menu">
                 <li class="menu-title">Main</li>
-                <li>
-                    <a href="index.html" class="waves-effect">
+                <li class='mm-active'>
+                    <a href="index.html" class="waves-effect mm-active">
                         <i class="ti-home"></i><span class="badge badge-primary badge-pill float-right">2</span> <span> Dashboard </span>
                     </a>
                 </li>
